@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"application"},{"l":"org.unibl.etf.pj2.gui"},{"l":"org.unibl.etf.pj2.iznajmljivanje"},{"l":"org.unibl.etf.pj2.prevoznasredstva"},{"l":"org.unibl.etf.pj2.simulacija"}];updateSearchResults();

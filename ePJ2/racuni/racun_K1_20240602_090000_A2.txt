@@ -1,0 +1,14 @@
+Racun za iznajmljivanje
+===============================
+ID korisnika: K1
+Vrijeme iznajmljivanja: 02.06.2024 09:00
+Pocetna lokacija: 1,7
+Destinacija: 12,15
+Trajanje: 15 sekundi
+Popust: Ne 
+Promocija: Da, 15.0% 
+Ukupna cijena: 76.5 KM
+Vozacka dozvola: KW2X9CPME
+Licna Karta: 4F9ZLXKZZ
+===============================
+Hvala sto koristite nase usluge!

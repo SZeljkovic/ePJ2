@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="kvaroviAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.pj2.gui.KvaroviController">
+   <children>
+      <Label alignment="CENTER" layoutX="546.0" layoutY="17.0" text="Lista svih kvarova">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TableView fx:id="tableViewKvarovi" layoutX="240.0" layoutY="139.0" prefHeight="489.0" prefWidth="719.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="81.60000610351562" text="ID" />
+          <TableColumn fx:id="vrstaColumn" prefWidth="201.60000610351562" text="Vrsta prevoznog sredstva" />
+            <TableColumn fx:id="vrijemeKvaraColumn" prefWidth="234.39996337890625" text="Vrijeme" />
+            <TableColumn fx:id="opisKvaraColumn" prefWidth="201.60003662109375" text="Opis kvara" />
+        </columns>
+      </TableView>
+      <Button fx:id="cijenepopravki" layoutX="521.0" layoutY="657.0" mnemonicParsing="false" onAction="#btnCijenaPopravki" text="Prikazi cijene popravki">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

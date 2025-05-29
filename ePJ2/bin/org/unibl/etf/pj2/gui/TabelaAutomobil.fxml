@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="automobilAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.pj2.gui.TabelaAutomobilController">
+   <children>
+      <Button fx:id="nazadautomobil" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnNazadAutomobil" text="Nazad">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="528.0" layoutY="17.0" text="Tabela svih automobila">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TableView fx:id="tableView" layoutX="232.0" layoutY="70.0" prefHeight="514.0" prefWidth="735.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="60.80000305175781" text="ID" />
+          <TableColumn fx:id="proizvodjacColumn" prefWidth="110.39999389648438" text="Proizvodjac" />
+            <TableColumn fx:id="modelColumn" prefWidth="92.79998779296875" text="Model" />
+            <TableColumn fx:id="datumNabavkeColumn" prefWidth="144.79998779296875" text="Datum nabavke" />
+            <TableColumn fx:id="cijenaNabavkeColumn" prefWidth="123.20001220703125" text="Cijena nabavke" />
+            <TableColumn fx:id="opisColumn" prefWidth="118.4000244140625" text="Opis" />
+            <TableColumn fx:id="pokvarenColumn" prefWidth="91.199951171875" text="Pokvaren?" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

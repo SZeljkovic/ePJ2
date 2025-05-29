@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rezultatiPoslovanjaAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.pj2.gui.RezultatiPoslovanjaController">
+   <children>
+      <Label layoutX="479.0" layoutY="30.0" text="Prikaz rezultata poslovanja">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="400.0" layoutY="281.0" text="Odaberite koju vrstu izvjestaja zelite:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="sumarnibutton" layoutX="424.0" layoutY="346.0" mnemonicParsing="false" onAction="#btnSumarniRezultati" prefHeight="30.0" prefWidth="109.0" text="Sumarni">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="dnevnibutton" layoutX="591.0" layoutY="346.0" mnemonicParsing="false" onAction="#btnDnevniRezultati" prefHeight="30.0" prefWidth="103.0" text="Dnevni">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

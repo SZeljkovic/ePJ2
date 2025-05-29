@@ -1,0 +1,12 @@
+Racun za iznajmljivanje
+===============================
+ID korisnika: K2
+Vrijeme iznajmljivanja: 01.06.2024 11:30
+Pocetna lokacija: 8,5
+Destinacija: 9,15
+Trajanje: 8 sekundi
+Popust: Ne 
+Promocija: Ne 
+Ukupna cijena: 28.799999999999997 KM
+===============================
+Hvala sto koristite nase usluge!

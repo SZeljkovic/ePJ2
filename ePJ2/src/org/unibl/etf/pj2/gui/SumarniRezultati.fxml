@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="sumarniAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.pj2.gui.SumarniRezultatiController">
+   <children>
+      <Button fx:id="nazadsumarni" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnNazadSumarni" text="Nazad">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="519.0" layoutY="30.0" text="Prikaz sumarnog izvještaja">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      
+      <!-- Dodati label za prikaz sumarnog izvještaja -->
+      <Label fx:id="ukupanPrihodLabel" layoutX="100.0" layoutY="100.0" text="Ukupan Prihod:" />
+      <Label fx:id="ukupanPopustLabel" layoutX="100.0" layoutY="140.0" text="Ukupan Popust:" />
+      <Label fx:id="ukupnoPromocijeLabel" layoutX="100.0" layoutY="180.0" text="Ukupno Promocije:" />
+      <Label fx:id="ukupnoVoznjiUziDioLabel" layoutX="100.0" layoutY="220.0" text="Ukupan iznos vožnji za uži dio grada:" />
+      <Label fx:id="ukupanIznosOdrzavanjeLabel" layoutX="100.0" layoutY="299.0" text="Ukupan Iznos za Održavanje:" />
+      <Label fx:id="ukupanIznosPopravkeLabel" layoutX="100.0" layoutY="335.0" text="Ukupan Iznos za Popravke:" />
+      <Label fx:id="ukupniTroskoviLabel" layoutX="102.0" layoutY="375.0" text="Ukupni Troškovi Kompanije:" />
+      <Label fx:id="ukupanPorezLabel" layoutX="102.0" layoutY="410.0" text="Ukupan Porez:" />
+      <Label fx:id="ukupnoVoznjiSiriDioLabel" layoutX="100.0" layoutY="257.0" text="Ukupan iznos vožnji za širi dio grada:" />
+   </children>
+</AnchorPane>

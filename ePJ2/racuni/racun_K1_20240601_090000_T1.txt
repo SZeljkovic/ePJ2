@@ -1,0 +1,12 @@
+Racun za iznajmljivanje
+===============================
+ID korisnika: K1
+Vrijeme iznajmljivanja: 01.06.2024 09:00
+Pocetna lokacija: 0,0
+Destinacija: 7,8
+Trajanje: 5 sekundi
+Popust: Ne 
+Promocija: Da, 15.0% 
+Ukupna cijena: 15.3 KM
+===============================
+Hvala sto koristite nase usluge!
